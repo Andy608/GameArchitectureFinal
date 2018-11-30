@@ -1,0 +1,58 @@
+#include "SaveManager.h"
+#include <iostream>
+
+SaveManager::SaveManager() :
+	mSaveFiles(std::map<std::string, SaveFile*>()),
+	mIsLoaded(false)
+{
+
+}
+
+SaveManager::~SaveManager()
+{
+	for (auto iter : mSaveFiles)
+	{
+		if (iter.second)
+		{
+			delete iter.second;
+		}
+	}
+
+	mSaveFiles.clear();
+}
+
+void SaveManager::addSaveFile(std::string key, std::string fileSrc)
+{
+	mSaveFiles.insert(std::make_pair(key, new SaveFile(fileSrc)));
+}
+
+void SaveManager::saveAllData()
+{
+	for (auto iter : mSaveFiles)
+	{
+		iter.second->clearFile();
+		iter.second->saveDataToFile();
+	}
+}
+
+void SaveManager::deleteAllSaveData()
+{
+	for (auto iter : mSaveFiles)
+	{
+		iter.second->deleteSaveData();
+	}
+}
+
+SaveFile* SaveManager::getSaveFile(std::string key) const
+{
+	auto iter = mSaveFiles.find(key);
+
+	if (iter == mSaveFiles.end())
+	{
+		throw("Could not find save file with key: \'" + key + "\'");
+	}
+	else
+	{
+		return iter->second;
+	}
+}

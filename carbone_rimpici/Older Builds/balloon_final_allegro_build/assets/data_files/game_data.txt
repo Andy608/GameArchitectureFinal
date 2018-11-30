@@ -1,0 +1,26 @@
+* Welcome to the main game data file.
+*
+* Tile Data
+tile_data=assets/data_files/tile_data.txt
+*
+* Level Data
+level1=assets/data_files/level_data/level1.txt
+level2=assets/data_files/level_data/level2.txt
+level3=assets/data_files/level_data/level3.txt
+sprite_size=32
+* Image Data
+head_sprites=assets/snake/head.png
+body_sprites=assets/snake/body.png
+tail_sprites=assets/snake/tail.png
+
+font_src=assets/font/SigmarOne-Regular.ttf
+food_sprites=assets/item/food_spritesheet.png
+speed_sprites=assets/item/speed_spritesheet.png
+slow_sprites=assets/item/slow_spritesheet.png
+
+title_font_size=50
+gui_font_size=24
+help_font_size=12
+
+background_buffer=assets/background.png
+air_balloon_buffer=assets/air_balloon/air_balloon.png

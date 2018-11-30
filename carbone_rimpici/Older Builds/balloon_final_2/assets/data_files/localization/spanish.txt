@@ -1,0 +1,23 @@
+title_scene_menu_title=GLOBO AEROSTÁTICO
+title_scene_menu_subtitle=Por Andrew Rimpici y Tim Carbone
+title_scene_menu_start=Nuevo Juego
+title_scene_menu_load=Cargar Juego
+title_scene_menu_options=Opciones
+title_scene_menu_exit=Salida
+
+game_scene_score=Puntuación
+
+options_scene_menu_title=OPCIONES
+options_scene_menu_back=<- Regresa
+
+options_scene_menu_english=Inglés
+options_scene_menu_french=Francés
+options_scene_menu_spanish=Español
+options_scene_menu_languages=Selección de Idioma
+options_scene_menu_sound=Sonar
+options_scene_menu_sound_on=En
+options_scene_menu_sound_off=Apagado
+
+end_scene_menu_title=GLOBO AEROSTÁTICO
+end_scene_menu_subtitle=Tus puntos:
+end_scene_menu_back=Menú principal

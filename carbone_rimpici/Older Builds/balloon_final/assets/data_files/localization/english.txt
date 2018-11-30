@@ -1,0 +1,18 @@
+title_scene_menu_title=HOT AIR BALLOON
+title_scene_menu_subtitle=By Andrew Rimpici and Tim Carbone
+title_scene_menu_start=New Game
+title_scene_menu_load=Load Game
+title_scene_menu_options=Options
+title_scene_menu_exit=Exit
+
+game_scene_score=Score
+
+options_scene_menu_title=OPTIONS
+options_scene_menu_back=<- Back
+
+options_scene_menu_english=English
+options_scene_menu_french=French
+options_scene_menu_languages=Language Selection
+options_scene_menu_sound=Sound
+options_scene_menu_sound_on=On
+options_scene_menu_sound_off=Off

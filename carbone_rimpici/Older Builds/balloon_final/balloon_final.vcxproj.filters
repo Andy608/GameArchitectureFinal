@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{708ca96c-17aa-482b-97cf-1d74a450810e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{1b8c247f-aa1a-4665-96b4-da233b98b3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{df748659-5426-4e3c-a736-da08f23ba01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{4a7c6413-b07d-4e6a-9847-a9c3b4e5dfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{1199b949-341a-4b20-8e29-3fd715d3ab75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{46abac04-0d15-4487-bbff-d843184edfea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util\Physics">
+      <UniqueIdentifier>{11f06376-b399-4c6d-bac0-047e7e617529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util\Physics">
+      <UniqueIdentifier>{9b5d3a70-03d9-4534-96a9-dec2e4416e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{1718e5af-8caa-4dfc-8554-919f08ec606e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{5dfc84ad-f138-4341-9504-3e173858b24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects\Walls">
+      <UniqueIdentifier>{0e285561-1aa5-4084-a829-8047f42c038d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Walls">
+      <UniqueIdentifier>{2c38efda-267e-4aea-b204-0a54d4fbf067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\UI">
+      <UniqueIdentifier>{ad506fcb-56b6-423a-abbd-9a4f0744113a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\UI">
+      <UniqueIdentifier>{e326a992-3217-4acb-abc3-df49be52829f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util\File">
+      <UniqueIdentifier>{cb11eaab-aca7-4133-989d-d51f98655b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util\File">
+      <UniqueIdentifier>{e4819598-5bc9-4be0-be43-8f19454d2049}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalizationFile.cpp">
+      <Filter>Source Files\Util\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Util\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTranslator.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CeilingFloorBlock.cpp">
+      <Filter>Source Files\Game Objects\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="CeilingFloorManager.cpp">
+      <Filter>Source Files\Game Objects\Walls</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextButton.cpp">
+      <Filter>Source Files\Scenes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RectBounds.cpp">
+      <Filter>Source Files\Util\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalizationMap.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsFile.cpp">
+      <Filter>Source Files\Util\File</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFile.cpp">
+      <Filter>Source Files\Util\File</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetContainer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTranslator.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CeilingFloorManager.h">
+      <Filter>Header Files\Game Objects\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="CeilingFloorBlock.h">
+      <Filter>Header Files\Game Objects\Walls</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextButton.h">
+      <Filter>Header Files\Scenes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RectBounds.h">
+      <Filter>Header Files\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsFile.h">
+      <Filter>Header Files\Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalizationMap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalizationFile.h">
+      <Filter>Header Files\Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFile.h">
+      <Filter>Header Files\Util\File</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

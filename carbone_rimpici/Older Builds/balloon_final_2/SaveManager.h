@@ -1,0 +1,30 @@
+#ifndef SAVE_MANAGER_H_
+#define SAVE_MANAGER_H_
+
+#include <Trackable.h>
+#include <map>
+#include <string>
+#include <Vector2D.h>
+#include "SaveFile.h"
+#include "AssetContainer.h"
+
+class SaveManager : public Trackable
+{
+public:
+	SaveManager();
+	~SaveManager();
+
+	void addSaveFile(std::string key, std::string fileSrc);
+
+	void saveAllData();
+	void deleteAllSaveData();
+
+	SaveFile* getSaveFile(std::string key) const;
+
+private:
+	bool mIsLoaded;
+
+	std::map<std::string, SaveFile*> mSaveFiles;
+};
+
+#endif

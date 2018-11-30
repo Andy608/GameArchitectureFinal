@@ -1,0 +1,5 @@
+* Tile Data
+wall_tile=0,0,0,255
+floor_tile=255,255,255,255
+wall_tile_image=assets/tiles/wall_tile.png
+floor_tile_image=assets/tiles/floor_tile.png

@@ -1,0 +1,27 @@
+* Level Data
+*
+* Level Tile Data
+map=assets/level_map/level1.png
+*
+* Level Info
+start_x=5
+start_y=10
+start_direction=1
+start_speed=90
+start_length=4
+end_length=16
+food_points=50
+powerup_points=100
+* In miliseconds. After this amount of time, the powerup will be added to the possible powerups to spawn list.
+slow_powerup_freq=2000
+speed_powerup_freq=3000
+* % is out of total. Example
+slow_powerup_%=50
+speed_powerup_%=50
+* Duration
+slow_powerup_duration=1000
+speed_powerup_duration=1000
+* Speed
+slow_powerup_speed=180
+speed_powerup_speed=40
+growth_amount=2

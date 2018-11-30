@@ -1,0 +1,23 @@
+title_scene_menu_title=MONTGOLFIÈRE
+title_scene_menu_subtitle=Par Andrew Rimpici et Tim Carbone
+title_scene_menu_start=Nouveau Jeu
+title_scene_menu_load=Chargement du Jeu
+title_scene_menu_options=Paramètres
+title_scene_menu_exit=Laisser
+
+game_scene_score=Vos Points
+
+options_scene_menu_title=PARAMÈTRES
+options_scene_menu_back=<- Arrière
+
+options_scene_menu_english=Anglais
+options_scene_menu_french=Français
+options_scene_menu_spanish=Espanol
+options_scene_menu_languages=Sélection de la Langue
+options_scene_menu_sound=Du Son
+options_scene_menu_sound_on=Sur
+options_scene_menu_sound_off=De
+
+end_scene_menu_title=MONTGOLFIÈRE
+end_scene_menu_subtitle=Les points:
+end_scene_menu_back=Menu principal

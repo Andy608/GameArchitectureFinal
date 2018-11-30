@@ -1,0 +1,3 @@
+player_location_x=300.000000
+player_location_y=-1988.032227
+score=15
